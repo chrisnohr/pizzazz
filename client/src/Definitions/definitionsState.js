@@ -5,16 +5,16 @@ import { take, put } from 'redux-saga/effects';
 export const LOOK_UP = 'LOOK_UP';
 export const DEFINE = 'DEFINE';
 
-export const definitionReducer = (state = 'a multi-player word game', action) => {
+export const definitionReducer = (state = '...', action) => {
   switch (action.type) {
     case DEFINE:
       return action.definition;
     case START_GAME:
-      return '...';
+      return 'Build the longest word you can!';
     case END_GAME:
       return '...';
     case SEND_SOLUTION:
-      return '...';
+      return 'Think this is fun? Tune in Wednesdays at 5pm and 7:30pm PST for Quiz This, a live and interactive game show, totally FREE!';
     default:
       return state;
   }
