@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
-  "proxy": "http://wordgame-server.herokue.com",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "ajv": "^6.2.1",
     "babel-plugin-styled-components": "^1.9.2",
