@@ -17,7 +17,7 @@ const Inputs = ({
   scrabbleBoard,
   sendSolution,
 }) => (
-  <>
+  <div style={{ height:"5em" } }>
     <ScreenName
       sendName={sendName}
       screenName={screenName}
@@ -32,7 +32,7 @@ const Inputs = ({
       scrabbleBoard={scrabbleBoard}
       sendSolution={sendSolution}
     />
-  </>
+  </div>
 );
 
 Inputs.propTypes = {
