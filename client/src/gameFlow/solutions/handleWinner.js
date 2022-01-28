@@ -14,8 +14,9 @@ function* bestUserWord() {
   const solutions = yield select(getSolutions);
   if (solutions.length) {
     const { name, solution } = getWinnerSolution(solutions);
+    const submission_count = solutions.length
     yield all([
-      put(messageAction(`The winner ${name.toUpperCase()} played`)),
+      put(messageAction(`Of ${submission_count} submitted, The winner ${name.toUpperCase()} played`)),
       fork(transition, solution),
       put(lookupAction(solution)),
     ]);
@@ -29,7 +30,7 @@ function* bestWord() {
   const bestSolution = getMaxLengthScore(validWords)[0];
   yield all([
     put(lookupAction(bestSolution)),
-    put(messageAction('The best word was')),
+    put(messageAction('The best possible word was')),
     call(transition, bestSolution),
   ]);
 }

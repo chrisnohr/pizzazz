@@ -5,7 +5,7 @@ import { MessageContainer, MessageStyled } from './MessageStyled';
 
 const Message = ({ message }) => (
   <>
-  <img src="./logo-full.png" height="50" />
+  <img src="./logo-full.png" height="50" alt="quiz this" />
   <MessageContainer>
     <MessageStyled>
       {message}

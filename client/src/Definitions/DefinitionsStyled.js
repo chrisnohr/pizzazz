@@ -8,7 +8,7 @@ const DefinitionsStyled = styled.div`
   font-weight: ${style.textWeight};
   font-size: ${style.respText};
   color: ${style.textColor};
-  border-left:${style.border};
+  text-align:center;
   padding: ${style.respPad};
   @media screen and (min-width: 445px) {
     padding: ${style.padding};

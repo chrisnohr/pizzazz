@@ -10,7 +10,6 @@ export const MessageStyled = styled.span`
   font-weight: ${style.textWeight};
   color: ${style.textColor};
   padding: ${style.respPad};
-  border-bottom: ${style.border};
   @media screen and (min-width: 445px) {
     font-size: 1.1rem;
     padding: ${style.padding};
