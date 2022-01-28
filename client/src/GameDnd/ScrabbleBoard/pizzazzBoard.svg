@@ -2,14 +2,14 @@
 <svg width="303.97mm" height="45.862mm" version="1.1" viewBox="0 0 303.96823 45.862492" >
 <g transform="translate(2.9682 -254.09)">
 <rect x="43" y="257" width="40" height="40" fill="#e7ded0"/>
-<rect y="257" width="40" height="40" fill="#ffc4c1"/>
+<rect y="257" width="40" height="40" fill="#e45339"/>
 <rect x="86" y="257" width="40" height="40" fill="#e7ded0"/>
 <rect x="129" y="257" width="40" height="40" fill="#e7ded0"/>
-<rect x="172" y="257" width="40" height="40" fill="#c1eaff"/>
+<rect x="172" y="257" width="40" height="40" fill="#f9db0c"/>
 <rect x="215" y="257" width="40" height="40" fill="#e7ded0"/>
 <rect x="258" y="257" width="40" height="40" fill="#e7ded0"/>
 <path d="m8.9241 293.45 10.838-33.394 10.838 33.394l-28.414-20.652h35.152" fill="#444" stroke-width=".14647"/>
-<g fill="#ffc4c1">
+<g fill="#e45339">
 <path d="m39.967 278.65 0.01307 1.5 0.01337 1.5 1.4868-0.75982 1.4868-0.76005-1.4999-0.74019z"/>
 <path d="m39.967 272.3 0.01307 1.5 0.01337 1.5 1.4868-0.75982 1.4868-0.76005-1.4999-0.74019z"/>
 <g transform="rotate(90 19.88 276.87)">

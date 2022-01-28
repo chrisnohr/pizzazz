@@ -5,7 +5,7 @@ import { take, put } from 'redux-saga/effects';
 export const LOOK_UP = 'LOOK_UP';
 export const DEFINE = 'DEFINE';
 
-export const definitionReducer = (state = 'a micro-scrabble word game', action) => {
+export const definitionReducer = (state = 'a multi-player word game', action) => {
   switch (action.type) {
     case DEFINE:
       return action.definition;
