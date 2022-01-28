@@ -5,6 +5,7 @@ export const borderColor = '#CED4DA';
 export const white = '#FFF';
 export const beige = '#E7DDCF';
 export const pink = '#FFC2C0';
+export const red = '#e45339';
 export const green = '#C4F2CB';
 export const yellow = '#F7E9B7';
 export const letterColor = '#555';

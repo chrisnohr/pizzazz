@@ -15,9 +15,9 @@ const gameDuration = 40;
 
 export const Bar = styled.div`
   position: relative;
-  background: ${style.beige};
+  background: ${style.red};
   height: 100%;
-  border-right: solid ${style.pink} 1px;
+  border-right: solid ${style.red} 4px;
   animation-name: status-bar;
   animation-timing-function: linear;
   animation-duration: ${props => props.duration}s;
