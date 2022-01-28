@@ -1,6 +1,6 @@
 export const MESSAGE = 'MESSAGE';
 
-const messageTopReducer = (state = 'Quiz This Presents', action) => {
+const messageTopReducer = (state = 'Presents WordQuiz, a little word treat in your day', action) => {
   switch (action.type) {
     case MESSAGE:
       return action.message;

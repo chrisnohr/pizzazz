@@ -9,10 +9,11 @@ import AppWrapper from './AppStyled';
 const App = () => (
   <AppWrapper>
     <Message />
+    <Inputs />
     <GameDnd />
     <ProgressBar />
     <Definitions />
-    <Inputs />
+
   </AppWrapper>
 );
 

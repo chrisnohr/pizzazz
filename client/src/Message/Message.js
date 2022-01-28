@@ -4,11 +4,14 @@ import PropTypes from 'prop-types';
 import { MessageContainer, MessageStyled } from './MessageStyled';
 
 const Message = ({ message }) => (
+  <>
+  <img src="./logo-full.png" height="50" />
   <MessageContainer>
     <MessageStyled>
       {message}
     </MessageStyled>
   </MessageContainer>
+  </>
 );
 
 Message.propTypes = {

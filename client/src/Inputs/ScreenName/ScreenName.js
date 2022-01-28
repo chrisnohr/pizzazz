@@ -29,7 +29,7 @@ const ScreenName = ({ sendName, screenName }) => {
           <HiddenLabel htmlFor="enter-screen-name">Enter screen name</HiddenLabel>
           <FormGroup>
             <TextInput
-              placeholder="Enter screen name to start"
+              placeholder="Enter a name to start..."
               onChange={handleChange}
               type="text"
               id="enter-screen-name"
