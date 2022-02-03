@@ -6,7 +6,7 @@ import transition from '../GameDnd/LetterDisplay/transition';
 
 function* rootSaga() {
   yield all([
-    transition('quizzle'),
+    transition('quirds '),
     socketIO(),
     gameSaga(),
   ]);
